@@ -1,0 +1,11 @@
+cd WhisperAI
+
+python ext_aud.py
+
+cd aud_text
+
+whisper "D:\D-KTS\WisperAI\out_aud\output.mp3" --model medium
+
+cd..
+
+python new.py
